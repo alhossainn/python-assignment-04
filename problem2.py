@@ -6,5 +6,5 @@ student = {
     'department': 'CSE',
 }
 
-data_to_json = json.dumps(student, indent=4)
+data_to_json = json.dumps(student)
 print(data_to_json)
